@@ -57,16 +57,8 @@ document.addEventListener("DOMContentLoaded", function() {
   checkbox.addEventListener("click", function() {
     
     
-        var subject = document.getElementById("imeiField").value;
-        
-        if(subject=="12345"){
-            window.location.href=("https://www.google.com/");
-        }else{
-            //var myAlert = document.getElementById("alert");
-            //myAlert.style.display=("block");
-            alert('Tracking results not ready yet,please try again later');
-        }
-        
+            var subject = document.getElementById("card3");
+            card3.style.display=("block");
         
     
   });
