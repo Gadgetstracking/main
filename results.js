@@ -1,7 +1,7 @@
 
 function trackingInfo(){
     
-    var verify = document.getElementById("emailVerify").value;
+    var username = document.getElementById("emailVerify").value;
     
        
             var infoLay = document.getElementById("InfoLay");
