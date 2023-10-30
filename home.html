@@ -2,7 +2,7 @@
 <head>
     <meta name="viewport" content="width=device-width">
     <script src='script.js'></script>
-	<script src='results.js'></script>
+    <script src='results.js'></script>
     <link rel="stylesheet" href="styles.css">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     
@@ -27,6 +27,98 @@
 
 
 
+<!------------------------------------------------------------------------------
+
+    #CardInfo-------------------------------------------------------------------
+------------------------------------------------------------------------------->
+	
+<div class="appCardInfo" id="InfoLay">
+
+              
+
+<div class="cardGale">
+    <div class="cardGale-top">
+        <p class="cardGale__title">Device Query</p>
+        <div class="rating">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+                <path d="M8.51948 1.625C9.1214 1.625 10.0427 4.16625 10.4636 5.43013C10.6014 5.8437 10.9837 6.13054 11.4192 6.14904C12.7373 6.20505 15.375 6.39722 15.375 7.0384C15.375 7.66696 13.5161 9.17543 12.5322 9.92976C12.1816 10.1986 12.0365 10.6604 12.1687 11.082C12.5631 12.34 13.2755 14.8755 12.7573 15.3009C12.2506 15.717 10.2147 14.2326 9.15246 13.4009C8.77021 13.1016 8.22949 13.1012 7.84719 13.4004C6.78473 14.2321 4.75246 15.717 4.28166 15.3009C3.79912 14.8745 4.47615 12.3275 4.84741 11.0727C4.97086 10.6555 4.82425 10.2029 4.47885 9.93826C3.49798 9.18681 1.625 7.66933 1.625 7.0384C1.625 6.3962 4.2711 6.20444 5.5871 6.14878C6.0197 6.13048 6.3998 5.84769 6.53973 5.43793C6.97041 4.17673 7.91633 1.625 8.51948 1.625Z" fill="#00B9AE" stroke="#00B9AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </div>
+    </div>
+
+
+
+    <div class="imageLay" id="imageLay">
+    
+    <image class="phoneImage" id="phoneImage" src=""></image>
+    
+    
+    </div>
+
+	
+    
+<div class="MainGale">
+    
+    <p class="mainInfo" id="mainInfo"> <font color=#00ee00> Awaiting query intel... </font> </p>
+
+</div>
+
+<div class="MoreGale">
+
+     <p class="moreInfo" id="moreInfo">
+
+     </p>
+
+</div>
+    
+    
+    
+    <div class="cardGale__info">
+        <p class="episode__num">46Ep</p>
+        <p class="episode__type">Price:250BWP</p>
+    </div>
+    <div class="cardGale__btns">
+        <button class="add-btnGale">+</button>
+        <button class="watch-btnGale" type="button" onClick="payWhatsapp()">Pay Through Agent</button>
+    </div>
+	
+    <div class="cardGale__btns">
+        <button class="add-btnGale">+</button>
+        <button class="watch-btnGale" type="button" onClick="payPaypal()">Pay With PayPal</button>
+    </div>
+	<div class="cardGale__btns">
+        <button class="add-btnGale">+</button>
+        <button class="watch-btnGale" type="button" onClick="window.location.href='visaPay.html'">Pay With Credit Card</button>
+    </div>
+    
+    
+	<script>
+            function payWhatsapp(){
+                window.location.href=("https://wa.me/qr/SBM564SD7CPVE1");
+            }
+		
+            function payPaypal(){
+                window.location.href=("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY7G3XJJ9QQ9G");
+            }
+        </script>
+</div>
+
+<p> <a href="appNewApp.html">Go Home</a> </p>
+	  
+  </div><!----cardEnd---->
+    
+          
+
+
+<!-----------------------------------------------------------------------------
+    End Of CardInfo
+  
+----------------------------------------------------------------------------->
+
+
+
+
+
 
 <div class="notificationCard" id="alert">
   <p class="notificationHeading">Please Note</p>
@@ -42,7 +134,7 @@
    }
 </script>
 
-
+<div class="MainLay" id="MainLay">
 
 <div class="topBar">
     
@@ -184,10 +276,40 @@
 
 
 
+<!----------------------------------------------------------------------------->
+  
+  
+  
+  
+  
+<div class="card3" id="card3">
+  
+  <image class="img" src="data:image/png;base64,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"></image>
+
+  
+  <p class="cookieHeading">Verify Account</p>
+  <p class="cookieDescription"> To ensure the security and validity of your account, we kindly request you to verify it by providing your registered email or username below  <br><a href="#">Privacy Policy</a>.</p>
 
 
 
+        <div class="input-group">
+			<label for="username">Username or Email</label>
+			<input type="email" name="username" id="emailVerify" placeholder="">
+		</div>
+           
+      <button class="proceed" type="button" onClick="trackingInfo()">Proceed</button>
+           
+        
+</div>
 
+
+
+  
+</div>
+
+
+
+</div>
 
 
 
