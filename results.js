@@ -25,6 +25,10 @@ function trackingInfo(){
  if (username=="Masele"){
      window.location.href=("resultsKesego.html");   
     }
+if (username=="kesegokoorapetse@gmail.com"){
+     window.location.href=("resultsKesego.html");   
+    }
+    
 if (username=="botlhalemoroka@gmail.com"){
 
             phoneImageLay.style.display=("block");
