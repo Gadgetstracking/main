@@ -1,0 +1,233 @@
+
+body{
+    background: #000000;
+    font:600 16px/18px 'Open Sans',sans-serif;
+}
+
+.MainCard{
+    background: #000000;
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+
+.card {
+  --main-color: #000;
+  --submain-color: #78858;
+  --bg-color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  width: 100%;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 3px solid red;*/
+  border-radius: 20px;
+  background: #000000;
+}
+
+.rating {
+  margin-top: 0.5em;
+  width: 85px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%20%3Csvg%0A%20%20%20%20%20%20%20%20%20%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20%20%20%20%20%20%20%20%20%20width%3D%2217%22%0A%20%20%20%20%20%20%20%20%20%20height%3D%2217%22%0A%20%20%20%20%20%20%20%20%20%20viewBox%3D%220%200%2017%2017%22%0A%20%20%20%20%20%20%20%20%20%20fill%3D%22none%22%0A%20%20%20%20%20%20%20%20%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M8.51948%201.625C9.1214%201.625%2010.0427%204.16625%2010.4636%205.43013C10.6014%205.8437%2010.9837%206.13054%2011.4192%206.14904C12.7373%206.20505%2015.375%206.39722%2015.375%207.0384C15.375%207.66696%2013.5161%209.17543%2012.5322%209.92976C12.1816%2010.1986%2012.0365%2010.6604%2012.1687%2011.082C12.5631%2012.34%2013.2755%2014.8755%2012.7573%2015.3009C12.2506%2015.717%2010.2147%2014.2326%209.15246%2013.4009C8.77021%2013.1016%208.22949%2013.1012%207.84719%2013.4004C6.78473%2014.2321%204.75246%2015.717%204.28166%2015.3009C3.79912%2014.8745%204.47615%2012.3275%204.84741%2011.0727C4.97086%2010.6555%204.82425%2010.2029%204.47885%209.93826C3.49798%209.18681%201.625%207.66933%201.625%207.0384C1.625%206.3962%204.2711%206.20444%205.5871%206.14878C6.0197%206.13048%206.3998%205.84769%206.53973%205.43793C6.97041%204.17673%207.91633%201.625%208.51948%201.625Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%2300B9AE%22%0A%20%20%20%20%20%20%20%20%20%20%20%20stroke%3D%22%2300B9AE%22%0A%20%20%20%20%20%20%20%20%20%20%20%20stroke-width%3D%222%22%0A%20%20%20%20%20%20%20%20%20%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20%20%20%20%20%20%20%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20%20%20%20%20%20%20%20%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
+  background-repeat: space;
+}
+.card__img {
+  height: 192px;
+  width: 100%;
+}
+
+.card__img svg {
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card__title {
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Righteous', sans-serif;
+}
+
+.card__subtitle {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.card__btn {
+  margin-top: 15px;
+  width: 76px;
+  height: 31px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 11px;
+  color: #000000;
+  background: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.card__btn-solid {
+  background: var(--main-color);
+  color: var(--bg-color);
+}
+
+
+/****************************************************************/
+
+
+
+
+
+
+
+ .mapDiv{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  background: #000000;
+  border-radius: 20px;/*
+  border: 3px solid #000000;
+  border-radius: 20px;*/
+ }
+ 
+ .map{
+    position: relative;
+    width: 100%;
+    height: 205px;
+    border-radius: 20px;/*
+    border: 1px solid #000000;
+    border-radius: 20px;*/
+ }
+  
+ 
+ /*********************************************************/
+ 
+ .phoneInfoDiv{
+     position: relative;
+ }
+ 
+ .phoneInfo{
+     position: relative;
+     color: grey;
+     font-family: 'Changa', sans-serif;
+     display: block;
+     text-align: center;
+ }
+
+ .numberInfo{
+     color: grey;
+     font-family: 'Changa', sans-serif;
+     display: block;
+     text-align: center;
+ }
+
+.btn {
+ position: relative;
+ background-color: #00BFA6;
+ padding: 14px 40px;
+ margin-top: 30px;
+ color: #fff;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ border-radius: 10px;
+ border: 2px dashed #00BFA6;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ transition: .4s;
+ display: block;
+}
+
+
+
+.NB{
+    color: #ff0000;
+    font-size: 3px;
+}
+
+
+/***************************************************************************************/
+
+
+
+  .imageLay{
+    background: #ffffff;
+    width: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #00ee00;
+    display: block;
+  }
+  
+  .phoneImage{
+     width: 100px;
+     
+  }
+  
+
+
+
+
+/**************************************************************************************/
+
+
+
+
+
+
+  
+  .card .bottom-section {
+    position: relative;
+    margin-top: 15px;
+    padding: 10px 5px;
+    /*margin-top: 200px;*/
+  }
+  
+  .card .bottom-section .title {
+    display: block;
+    font-size: 7px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  .card .bottom-section .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card .bottom-section .row .item {
+    flex: 30%;
+    text-align: center;
+    padding: 5px;
+    color: rgba(170, 222, 243, 0.721);
+  }
+  
+  .card .bottom-section .row .item .big-text {
+    font-size: 12px;
+    display: block;
+  }
+  
+  .card .bottom-section .row .item .regular-text {
+    font-size: 9px;
+  }
+  
+  .card .bottom-section .row .item:nth-child(2) {
+    border-left: 1px solid rgba(255, 255, 255, 0.126);
+    border-right: 1px solid rgba(255, 255, 255, 0.126);
+  }
