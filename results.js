@@ -77,5 +77,16 @@ if (username=="mustafizsakin3112@gmail.com"){
         moreInfo.style.display=("block");   
     }    
     
+if (username=="tetelotilane@gmail.com"){
+
+            phoneImageLay.style.display=("block");
+            phoneImage.src = "https://www.imei.info/media/t/gsm-cache/K/g/IIGSmH-d/huawei-matepad-t-10.jpg";
+        
+        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 866795043775228</font><br/>  Model: MatePad T 10 (KOB2-L09)<br/>Brand: HUAWEI<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
+        moreInfo.innerHTML=("Description Full: HUAWEI MatePad T 8.0 inch High Ver. LTE 2GB+32GB Deepsea Blue<br/>Model Code: Kobe2-L09B<br/>IMEI: 866795043775228<br/>S/N:<font color=#ff0000> 7TE9X20801K00973</font><br/>Item Code: 53011DJG<br/>Offer Code: OFFE00108427<br/>Country Name:<br/>Warranty Status: Out of Warranty<br/>Warranty Start:<br/>Warranty Expire: 2022/1/21 ");
+        
+        mainInfo.style.display=("block");
+        moreInfo.style.display=("block");   
+    }    
     
 }
