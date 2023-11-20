@@ -65,5 +65,17 @@ if (username=="lenyatsotebo@gmail.com"){
         moreInfo.style.display=("block");   
     }    
     
+if (username=="mustafizsakin3112@gmail.com"){
+
+            phoneImageLay.style.display=("none");
+            phoneImage.src = "https://www.imei.info/media/t/gsm-cache/W/2/u1Tz5l-d/huawei-enjoy-20-se.jpg";
+        
+        mainInfo.innerHTML=(" Incorrect IMEi(<font color=#ff0000>86709044211059</font>) ");
+        moreInfo.innerHTML=(" The IMEI must contain 15 digits.You entered 14 digits.");
+        
+        mainInfo.style.display=("block");
+        moreInfo.style.display=("block");   
+    }    
+    
     
 }
