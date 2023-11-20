@@ -68,10 +68,10 @@ if (username=="lenyatsotebo@gmail.com"){
 if (username=="mustafizsakin3112@gmail.com"){
 
             phoneImageLay.style.display=("none");
-            phoneImage.src = "https://www.imei.info/media/t/gsm-cache/W/2/u1Tz5l-d/huawei-enjoy-20-se.jpg";
+            phoneImage.src = "https://www.imei.info/media/t/gsm-cache/R/H/O9jYJc-d/xiaomi-mi-9t-pro.jpg";
         
-        mainInfo.innerHTML=(" Incorrect IMEi(<font color=#ff0000>86709044211059</font>) ");
-        moreInfo.innerHTML=(" The IMEI must contain 15 digits.You entered 14 digits.");
+        mainInfo.innerHTML=("STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 866709044211059</font><br/>  Model: Mi 9T Pro (M1903F11G)<br/>Brand: XIAOMI<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font> ");
+        moreInfo.innerHTML=(" Operating System	Android 9.0 Pie<br/>Chipset	Qualcomm Snapdragon 855<br/>Number of CPU Cores	1<br/>RAM	6 GB<br/>Width	74.3 mm<br/>Height	156.7 mm<br/>Thickness	8.8 mm<br/>Weight	191.0 g<br/>Type	AMOLED<br/>Diagonal	6.39 inches<br/>Resolution	1080x2340 px<br/>Screen-to-body ratio	86.1 %<br/>Pixel density	403 ppi<br/>Colors	16M");
         
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");   
