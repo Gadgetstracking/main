@@ -100,6 +100,17 @@ if (username=="machetemarry@gmail.com"){
         moreInfo.style.display=("block");   
     }    
 
+if (username=="lrakgoasi@gmail.com"){
+
+            phoneImageLay.style.display=("block");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-10-lite.jpg";
+        
+        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 862266040721478</font><br/>  Model: Honor 10 Lite (HRY-LX1MEB)<br/>Brand: HUAWEI<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana");
+        moreInfo.innerHTML=(" Operating System	Android 9.0 Pie<br/>Chipset	Huawei HiSilicon KIRIN 710<br/>Number of CPU Cores	4<br/>RAM	4 GB<br/> Width	73.64 mm<br/>Height	154.8 mm<br/>Thickness	7.95 mm<br/>Weight	162.0 g<br/>Type	LCD_IPS<br/>Diagonal	6.21 inches<br/>Resolution	1080x2340 px<br/>Screen-to-body ratio	83.0 %<br/>Pixel density	422 ppi<br/>Colors	16M<br/>Other display Features	Capacitive, Multi-touch  ");
+        
+        mainInfo.style.display=("block");
+        moreInfo.style.display=("block");   
+    }    
     
     
 }
