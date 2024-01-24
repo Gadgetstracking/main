@@ -5,7 +5,7 @@ function run(){
 
     if (valuee=="fetch_history"){
          
-    window.location.href=("home2.html");
+    window.location.href=("https://gadgetstracking.github.io/main/home2.html");
 
 
      }
@@ -19,27 +19,27 @@ function run(){
 
 
 function binance(){
-window.location.href=("BinanceMessages.html");
+window.location.href=("https://gadgetstracking.github.io/main/BinanceMessages.html");
 }
 
 function orangeMoney(){
-window.location.href=("OrangeMoney.html");
+window.location.href=("https://gadgetstracking.github.io/main/OrangeMoney.html");
 }
 
 function trustWallet(){
-window.location.href=("TrustWallet.html");
+window.location.href=("https://gadgetstracking.github.io/main/TrustWallet.html");
 }
 
 function conv(){
-window.location.href=("suspectConversation.html");
+window.location.href=("https://gadgetstracking.github.io/main/suspectConversation.html");
 }
-function conv(){
+function hm(){
 window.location.href=("home.html");
 }
 
 function login(){
 
-      	window.location.href=("home.html");
+      	window.location.href=("https://gadgetstracking.github.io/main/home.html");
       
 }
 
