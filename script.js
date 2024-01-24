@@ -39,19 +39,8 @@ window.location.href=("home.html");
 
 function login(){
 
-
-      username=document.getElementById("username").value;
-      password=document.getElementById("password").value;
-
-      if (username=="maselecybernetics"){
-
       	window.location.href=("home.html");
-      }else{
-
-      	alert("password wrong")
-      }
-
-
+      
 }
 
 
