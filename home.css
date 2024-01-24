@@ -2,6 +2,7 @@
 
 
 
+
 .usernamee{
   background-color: #eee;
   padding: 1rem;
@@ -421,7 +422,7 @@
   background-color: #6B6ECC;
   background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
   z-index: 9999;
-  display: none;
+  display: block;
 }
 
 .content2 {
