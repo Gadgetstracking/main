@@ -3,8 +3,11 @@ function run(){
 
     var valuee=document.getElementById("tef").value;
 
-    if (valuee=="sudo_fetch_history"){
-         alert("fetch history");
+    if (valuee=="fetch_history"){
+         
+    window.location.href=("home2.html");
+
+
      }
       else{
       alert("To access more features subscribe to a plan");
@@ -34,7 +37,22 @@ function conv(){
 window.location.href=("home.html");
 }
 
+function login(){
 
+
+      username=document.getElementById("username").value;
+      password=document.getElementById("password").value;
+
+      if (username=="maselecybernetics"){
+
+      	window.location.href=("home.html");
+      }else{
+
+      	alert("password wrong")
+      }
+
+
+}
 
 
 
